@@ -1,0 +1,10 @@
+[gui]
+	recentrepo = I:/pages/matthieu-octave.github.io
+[user]
+	email = matthieu.octave@gmail.com
+	name = Matthieu OCTAVE
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
